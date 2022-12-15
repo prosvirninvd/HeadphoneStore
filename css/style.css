@@ -52,24 +52,6 @@ header .navigation {
     justify-content: center;
 }
 
-.search-icon {
-    width: 20px;
-    height: 20px;
-    background-image: url("../img/Group\ 35.png");
-}
-
-.catalog-icon {
-    width: 20px;
-    height: 22px;
-    background-image: url("../img/Group\ 34.png");
-}
-
-.account-icon {
-    width: 18px;
-    height: 20px;
-    background-image: url("../img/Group\ 33.png");
-}
-
 .navigation-line {
     width: 0;
     height: 47px;
@@ -78,7 +60,7 @@ header .navigation {
 .navigation-menu {
     width: 41px;
     height: 29px;
-    background-image: url("../img/Group\ 58.png");
+    background-image: url("../img/Group-58.png");
 }
 .logo {
     width: 73px;
@@ -218,7 +200,6 @@ main section {
 .colour-gallery-left {
     width: 21px;
     height: 37px;
-    background-image: url("../img/Group\ 66.png");
     outline: none;
     border: none;
     background-color: unset;
@@ -234,7 +215,6 @@ main section {
 .colour-gallery-right {
     width: 21px;
     height: 37px;
-    background-image: url("../img/Group\ 68.png");
     outline: none;
     border: none;
     background-color: unset;
@@ -246,14 +226,14 @@ main section {
 }
 
 .previous {
-    background-image: url("../img/Rectangle\ 74.png");
+    background-image: url("../img/Rectangle-74.png");
     position: relative;
     left: 59px;
 }
 
 .current {
     z-index: 1;
-    background-image: url("../img/Rectangle\ 76.png");
+    background-image: url("../img/Rectangle-76.png");
     filter: drop-shadow(0px 21px 88px rgba(126, 118, 118, 0.2));
     min-width: 453px;
     width: 453px;
@@ -261,7 +241,7 @@ main section {
 }
 
 .next {
-    background-image: url("../img/Rectangle\ 75.png");
+    background-image: url("../img/Rectangle-75.png");
     position: relative;
     right: 59px
 }
@@ -278,12 +258,12 @@ main section {
 .feature-right {
     width: 622px;
     height: 603px;
-    background-image: url("../img/Group\ 72.png");
+    background-image: url("../img/Group-72.png");
 }
 .feature-headphone {
     width: 333px;
     height: 474px;
-    background-image: url("../img/image\ 6.png");
+    background-image: url("../img/image-6.png");
     position: relative;
     top: 65px;
     left: 119px;
@@ -416,7 +396,7 @@ main section {
     min-width: 255px;
     width: 255px;
     height: 358px;
-    background-image: url("../img/pngwing\ 5.png");
+    background-image: url("../img/pngwing-5.png");
     position: relative;
     left: 27px;
     top: -54px;
@@ -426,7 +406,7 @@ main section {
     background-color: #E5F1FF;
 }
 .blue-headphone .product-item-image {
-    background-image: url("../img/pngwing\ 4.png");
+    background-image: url("../img/pngwing-4.png");
     min-width: 262px;
     width: 262px;
     height: 353px;
@@ -434,14 +414,11 @@ main section {
     left: 24px;
     top: -50px;
 }
-.blue-headphone .product-item-buy {
-    right: -20px;
-}
 .green-headphone, .green-headphone .product-item-buy {
     background-color: #E5FFFB;
 }
 .green-headphone .product-item-image {
-    background-image: url("../img/pngwing\ 6.png");
+    background-image: url("../img/pngwing-6.png");
     width: 268px;
     height: 366px;
     position: relative;
@@ -453,15 +430,15 @@ main section {
     min-width: 79px;
     width: 79px;
     height: 80px;
-    background-image:  url("../img/Group\ 37.png");
-    background-position: center;
-    background-repeat: no-repeat;
     border: 6px solid white;
     box-sizing: border-box;
     border-radius: 50%;
     position: relative;
     right: -31px;
     top: -31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-background {
@@ -470,7 +447,8 @@ main section {
     height: 329px;
     border-radius: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 }
 
 .item-rating {
@@ -491,7 +469,7 @@ main section {
 .item-rating-stars div {
     width: 31px;
     height: 31px;
-    background-image: url("../img/Star\ 1.png");
+    background-image: url("../img/Star-1.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -531,7 +509,7 @@ main section {
 .boxing-left {
     width: 662px;
     height: 577px;
-    background-image: url("../img/Rectangle\ 72.png");
+    background-image: url("../img/Rectangle-72.png");
 }
 
 .boxing-right {
@@ -714,24 +692,8 @@ footer .wrapper .container {
     color: #FFFFFF;
 }
 .ext-links {
-    
     width: 223px;
     height: 51px;
     display: flex;
     justify-content: space-between;
-}
-.instagram-icon {
-    background-image: url("../img/Group\ 57.png");
-    width: 22px;
-    height: 22px;
-}
-.twitter-icon {
-    background-image: url("../img/Group\ 55.png");
-    width: 24px;
-    height: 20px;
-}
-.facebook-icon {
-    background-image: url("../img/Group\ 56.png");
-    width: 13px;
-    height: 22px;
 }
